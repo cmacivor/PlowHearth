@@ -1,0 +1,13 @@
+
+C:\Users\pendant\Documents\middleware>"C:\python\python.exe" "C:\Users\pendant\Documents\middleware\TCP_Client_v2.py" 
+connecting to server..
+!! Traceback (most recent call last):
+!!   File "C:\Users\pendant\Documents\middleware\TCP_Client_v2.py", line 130, in <module>
+    clientSocket.connect((HOST, PORT))
+!! OSError: [WinError 10065] A socket operation was attempted to an unreachable host
+
+connection lost...reconnecting
+reconnection attempt number: 1
+reconnection attempt number: 2
+reconnection attempt number: 3
+re-connection successful

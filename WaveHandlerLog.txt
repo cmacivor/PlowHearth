@@ -1,0 +1,177 @@
+2020-11-24 12:33:17,661 ERROR parseWaveFiles(53) !! Traceback (most recent call last):
+!!   File "c:\Users\pendant\Documents\GitHub\Plow-Hearth\Plow-Hearth_WaveHandler.py", line 76, in processFile
+    CartonManager.processAction(data, file_name, fileRecordCount)
+!!   File "c:\Users\pendant\Documents\GitHub\Plow-Hearth\CartonManager.py", line 31, in processAction
+    add(data, fileName, fileRecordCount)
+!!   File "c:\Users\pendant\Documents\GitHub\Plow-Hearth\CartonManager.py", line 14, in add
+    cursor.execute(sql, val)
+!!   File "C:\python\lib\site-packages\mysql\connector\cursor.py", line 569, in execute
+    self._handle_result(self._connection.cmd_query(stmt))
+!!   File "C:\python\lib\site-packages\mysql\connector\connection.py", line 651, in cmd_query
+    result = self._handle_result(self._send_cmd(ServerCmd.QUERY, query))
+!!   File "C:\python\lib\site-packages\mysql\connector\connection.py", line 538, in _handle_result
+    raise errors.get_exception(packet)
+!! mysql.connector.errors.DataError: 1406 (22001): Data too long for column 'weight_assign' at row 1
+!! 
+During handling of the above exception, another exception occurred:
+
+!! Traceback (most recent call last):
+!!   File "C:\python\lib\shutil.py", line 788, in move
+    os.rename(src, real_dst)
+!! PermissionError: [WinError 32] The process cannot access the file because it is being used by another process: 'E:\\SWMS_Upload\\CCSWave\\0102160300013.txt' -> 'E:\\SWMS_Upload\\CCSWave\\Error\\0102160300013.txt'
+!! 
+During handling of the above exception, another exception occurred:
+
+!! Traceback (most recent call last):
+!!   File "c:\Users\pendant\Documents\GitHub\Plow-Hearth\Plow-Hearth_WaveHandler.py", line 42, in parseWaveFiles
+    processFile(f)
+!!   File "c:\Users\pendant\Documents\GitHub\Plow-Hearth\Plow-Hearth_WaveHandler.py", line 97, in processFile
+    shutil.move(os.path.join(download_path, file_name), os.path.join(error_path, file_name))
+!!   File "C:\python\lib\shutil.py", line 803, in move
+    os.unlink(src)
+!! PermissionError: [WinError 32] The process cannot access the file because it is being used by another process: 'E:\\SWMS_Upload\\CCSWave\\0102160300013.txt'
+
+2020-11-24 12:33:24,337 ERROR parseWaveFiles(53) !! Traceback (most recent call last):
+!!   File "c:\Users\pendant\Documents\GitHub\Plow-Hearth\Plow-Hearth_WaveHandler.py", line 76, in processFile
+    CartonManager.processAction(data, file_name, fileRecordCount)
+!!   File "c:\Users\pendant\Documents\GitHub\Plow-Hearth\CartonManager.py", line 31, in processAction
+    add(data, fileName, fileRecordCount)
+!!   File "c:\Users\pendant\Documents\GitHub\Plow-Hearth\CartonManager.py", line 14, in add
+    cursor.execute(sql, val)
+!!   File "C:\python\lib\site-packages\mysql\connector\cursor.py", line 569, in execute
+    self._handle_result(self._connection.cmd_query(stmt))
+!!   File "C:\python\lib\site-packages\mysql\connector\connection.py", line 651, in cmd_query
+    result = self._handle_result(self._send_cmd(ServerCmd.QUERY, query))
+!!   File "C:\python\lib\site-packages\mysql\connector\connection.py", line 538, in _handle_result
+    raise errors.get_exception(packet)
+!! mysql.connector.errors.DataError: 1406 (22001): Data too long for column 'weight_assign' at row 1
+!! 
+During handling of the above exception, another exception occurred:
+
+!! Traceback (most recent call last):
+!!   File "C:\python\lib\shutil.py", line 788, in move
+    os.rename(src, real_dst)
+!! PermissionError: [WinError 32] The process cannot access the file because it is being used by another process: 'E:\\SWMS_Upload\\CCSWave\\0102160300013.txt' -> 'E:\\SWMS_Upload\\CCSWave\\Error\\0102160300013.txt'
+!! 
+During handling of the above exception, another exception occurred:
+
+!! Traceback (most recent call last):
+!!   File "c:\Users\pendant\Documents\GitHub\Plow-Hearth\Plow-Hearth_WaveHandler.py", line 42, in parseWaveFiles
+    processFile(f)
+!!   File "c:\Users\pendant\Documents\GitHub\Plow-Hearth\Plow-Hearth_WaveHandler.py", line 97, in processFile
+    shutil.move(os.path.join(download_path, file_name), os.path.join(error_path, file_name))
+!!   File "C:\python\lib\shutil.py", line 803, in move
+    os.unlink(src)
+!! PermissionError: [WinError 32] The process cannot access the file because it is being used by another process: 'E:\\SWMS_Upload\\CCSWave\\0102160300013.txt'
+
+2020-11-24 13:46:32,240 ERROR processFile(129) !! Traceback (most recent call last):
+!!   File "c:\Users\pendant\Documents\GitHub\Plow-Hearth\Plow-Hearth_WaveHandler.py", line 108, in processFile
+    CartonManager.processAction(data, file_name, fileRecordCount)
+!!   File "c:\Users\pendant\Documents\GitHub\Plow-Hearth\CartonManager.py", line 31, in processAction
+    add(data, fileName, fileRecordCount)
+!!   File "c:\Users\pendant\Documents\GitHub\Plow-Hearth\CartonManager.py", line 14, in add
+    cursor.execute(sql, val)
+!!   File "C:\python\lib\site-packages\mysql\connector\cursor.py", line 569, in execute
+    self._handle_result(self._connection.cmd_query(stmt))
+!!   File "C:\python\lib\site-packages\mysql\connector\connection.py", line 651, in cmd_query
+    result = self._handle_result(self._send_cmd(ServerCmd.QUERY, query))
+!!   File "C:\python\lib\site-packages\mysql\connector\connection.py", line 538, in _handle_result
+    raise errors.get_exception(packet)
+!! mysql.connector.errors.DataError: 1406 (22001): Data too long for column 'weight_assign' at row 1
+
+2020-11-24 13:50:01,760 ERROR processFile(129) !! Traceback (most recent call last):
+!!   File "c:\Users\pendant\Documents\GitHub\Plow-Hearth\Plow-Hearth_WaveHandler.py", line 108, in processFile
+    CartonManager.processAction(data, file_name, fileRecordCount)
+!!   File "c:\Users\pendant\Documents\GitHub\Plow-Hearth\CartonManager.py", line 31, in processAction
+    add(data, fileName, fileRecordCount)
+!!   File "c:\Users\pendant\Documents\GitHub\Plow-Hearth\CartonManager.py", line 14, in add
+    cursor.execute(sql, val)
+!!   File "C:\python\lib\site-packages\mysql\connector\cursor.py", line 569, in execute
+    self._handle_result(self._connection.cmd_query(stmt))
+!!   File "C:\python\lib\site-packages\mysql\connector\connection.py", line 651, in cmd_query
+    result = self._handle_result(self._send_cmd(ServerCmd.QUERY, query))
+!!   File "C:\python\lib\site-packages\mysql\connector\connection.py", line 538, in _handle_result
+    raise errors.get_exception(packet)
+!! mysql.connector.errors.DataError: 1406 (22001): Data too long for column 'weight_assign' at row 1
+
+2020-11-30 09:20:23,482 ERROR processFile(138) !! Traceback (most recent call last):
+!!   File "c:\Users\pendant\Documents\GitHub\Plow-Hearth\Plow-Hearth_WaveHandler.py", line 110, in processFile
+    CartonManager.processAction(data, file_name, fileRecordCount)
+!!   File "c:\Users\pendant\Documents\GitHub\Plow-Hearth\CartonManager.py", line 30, in processAction
+    if data[5] == 'A':
+!! IndexError: list index out of range
+
+2020-11-30 09:28:34,088 ERROR processFile(139) !! Traceback (most recent call last):
+!!   File "c:\Users\pendant\Documents\GitHub\Plow-Hearth\Plow-Hearth_WaveHandler.py", line 110, in processFile
+    CartonManager.processAction(data, file_name, fileRecordCount)
+!!   File "c:\Users\pendant\Documents\GitHub\Plow-Hearth\CartonManager.py", line 30, in processAction
+    if data[5] == 'A':
+!! IndexError: list index out of range
+
+2020-11-30 09:40:47,293 ERROR processFile(138) !! Traceback (most recent call last):
+!!   File "C:\python\lib\shutil.py", line 788, in move
+    os.rename(src, real_dst)
+!! PermissionError: [WinError 32] The process cannot access the file because it is being used by another process: 'E:\\SWMS_Upload\\CCSWave\\0102160300014.txt' -> 'E:\\SWMS_Upload\\CCSWave\\Error\\0102160300014.txt'
+!! 
+During handling of the above exception, another exception occurred:
+
+!! Traceback (most recent call last):
+!!   File "c:\Users\pendant\Documents\GitHub\Plow-Hearth\Plow-Hearth_WaveHandler.py", line 125, in processFile
+    shutil.move(os.path.join(download_path, file_name), os.path.join(error_path, file_name))
+!!   File "C:\python\lib\shutil.py", line 803, in move
+    os.unlink(src)
+!! PermissionError: [WinError 32] The process cannot access the file because it is being used by another process: 'E:\\SWMS_Upload\\CCSWave\\0102160300014.txt'
+
+2020-11-30 09:50:55,771 ERROR processFile(139) !! Traceback (most recent call last):
+!!   File "c:\Users\pendant\Documents\GitHub\Plow-Hearth\Plow-Hearth_WaveHandler.py", line 111, in processFile
+    CartonManager.processAction(data, file_name, fileRecordCount)
+!!   File "c:\Users\pendant\Documents\GitHub\Plow-Hearth\CartonManager.py", line 31, in processAction
+    add(data, fileName, fileRecordCount)
+!!   File "c:\Users\pendant\Documents\GitHub\Plow-Hearth\CartonManager.py", line 14, in add
+    cursor.execute(sql, val)
+!!   File "C:\python\lib\site-packages\mysql\connector\cursor.py", line 569, in execute
+    self._handle_result(self._connection.cmd_query(stmt))
+!!   File "C:\python\lib\site-packages\mysql\connector\connection.py", line 651, in cmd_query
+    result = self._handle_result(self._send_cmd(ServerCmd.QUERY, query))
+!!   File "C:\python\lib\site-packages\mysql\connector\connection.py", line 538, in _handle_result
+    raise errors.get_exception(packet)
+!! mysql.connector.errors.DataError: 1406 (22001): Data too long for column 'weight_assign' at row 1
+
+2020-11-30 10:29:39,643 ERROR processFile(140) !! Traceback (most recent call last):
+!!   File "c:\Users\pendant\Documents\GitHub\Plow-Hearth\Plow-Hearth_WaveHandler.py", line 111, in processFile
+    CartonManager.processAction(data, file_name, fileRecordCount)
+!!   File "c:\Users\pendant\Documents\GitHub\Plow-Hearth\CartonManager.py", line 31, in processAction
+    add(data, fileName, fileRecordCount)
+!!   File "c:\Users\pendant\Documents\GitHub\Plow-Hearth\CartonManager.py", line 14, in add
+    cursor.execute(sql, val)
+!!   File "C:\python\lib\site-packages\mysql\connector\cursor.py", line 569, in execute
+    self._handle_result(self._connection.cmd_query(stmt))
+!!   File "C:\python\lib\site-packages\mysql\connector\connection.py", line 651, in cmd_query
+    result = self._handle_result(self._send_cmd(ServerCmd.QUERY, query))
+!!   File "C:\python\lib\site-packages\mysql\connector\connection.py", line 538, in _handle_result
+    raise errors.get_exception(packet)
+!! mysql.connector.errors.DataError: 1406 (22001): Data too long for column 'weight_assign' at row 1
+
+2020-11-30 16:59:19,896 ERROR processFile(144) !! Traceback (most recent call last):
+!!   File "c:\Users\pendant\Documents\GitHub\Plow-Hearth\Plow-Hearth_WaveHandler.py", line 111, in processFile
+    CartonManager.processAction(data, file_name, fileRecordCount)
+!!   File "c:\Users\pendant\Documents\GitHub\Plow-Hearth\CartonManager.py", line 50, in processAction
+    raise Exception("Unknown value in action type field")
+!! Exception: Unknown value in action type field
+
+2020-12-01 08:43:02,907 ERROR processFile(144) !! Traceback (most recent call last):
+!!   File "c:\Users\pendant\Documents\GitHub\Plow-Hearth\Plow-Hearth_WaveHandler.py", line 111, in processFile
+    CartonManager.processAction(data, file_name, fileRecordCount)
+!!   File "c:\Users\pendant\Documents\GitHub\Plow-Hearth\CartonManager.py", line 54, in processAction
+    add(data, fileName, fileRecordCount)
+!!   File "c:\Users\pendant\Documents\GitHub\Plow-Hearth\CartonManager.py", line 14, in add
+    raise Exception("Weight Assign is not the correct length")
+!! Exception: Weight Assign is not the correct length
+
+2020-12-04 09:08:08,905 ERROR processFile(144) !! Traceback (most recent call last):
+!!   File "c:\Users\pendant\Documents\GitHub\Plow-Hearth\Plow-Hearth_WaveHandler.py", line 111, in processFile
+    CartonManager.processAction(data, file_name, fileRecordCount)
+!!   File "c:\Users\pendant\Documents\GitHub\Plow-Hearth\CartonManager.py", line 72, in processAction
+    raise Exception("Unknown value in action type field")
+!! Exception: Unknown value in action type field
+

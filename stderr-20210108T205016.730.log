@@ -1,0 +1,7 @@
+Traceback (most recent call last):
+  File "C:\Users\pendant\Documents\middleware\TCP_Client_v2.py", line 131, in <module>
+    sendMessages(clientSocket)
+  File "C:\Users\pendant\Documents\middleware\TCP_Client_v2.py", line 46, in sendMessages
+    time.sleep(6)
+KeyboardInterrupt
+^C
